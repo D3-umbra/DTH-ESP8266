@@ -1,2 +1,25 @@
-# DTH-ESP8266
+# Umbra's DHT11 ESP8266
 This is my first project using a DHT11 sensor with ESP8266, featuring a dark aesthetic minimalistic style. 
+
+The ESP8266 serves a simple web page displaying **temperature** and **humidity** with a cyberpunk-inspired style.  
+It also exposes a **Prometheus metrics endpoint** for monitoring purposes.
+
+## Features
+- 🌡️ Temperature and 💧 Humidity readings
+- 🖤 Dark, minimalistic web interface
+- 🔄 Auto-refresh every 5 seconds
+- 📊 Prometheus metrics at `/metrics`
+- 🎧 Optional Spotify playlist link embedded
+
+## Hardware
+- ESP8266 (NodeMCU, Wemos D1 Mini)
+- DHT11 sensor connected to GPIO2
+
+## Usage
+1. Update your Wi-Fi credentials in `DHT11.ino`:
+```cpp
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
+
+2. Flash the sketch to your ESP8266.
+3. Open the IP printed in the Serial Monitor in your browser.
