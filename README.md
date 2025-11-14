@@ -1,4 +1,6 @@
 # Umbra's DHT11 ESP8266
+<img width="1141" height="463" alt="image" src="https://github.com/user-attachments/assets/c5b00bd2-c114-4b65-85f5-f52b13632767" />
+
 This is my first project using a DHT11 sensor with ESP8266, featuring a dark aesthetic minimalistic style. 
 
 The ESP8266 serves a simple web page displaying **temperature** and **humidity** with a cyberpunk-inspired style.  
