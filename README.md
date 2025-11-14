@@ -12,6 +12,7 @@ It also exposes a **Prometheus metrics endpoint** for monitoring purposes.
 - 🔄 Auto-refresh every 5 seconds
 - 📊 Prometheus metrics at `/metrics`
 - 🎧 Optional Spotify playlist link embedded
+- ⏱️  Uses [Clocklink.com]([clocklink.com](https://www.clocklink.com/gallery/view/html5-004)) for a digital clock (GMT+2 by default; you can add your own clock if you want :D)
 
 ## Hardware
 - ESP8266 (NodeMCU, Wemos D1 Mini)
